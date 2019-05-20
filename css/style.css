@@ -1,0 +1,184 @@
+	body{
+		font-family: arial;
+		background: url('../img/fondo.jpg');
+		background-size: 1350px 700px;
+	}
+	.body{
+		padding: 60px 15px;
+	}
+	.pacifico{
+		font-family: 'Pacifico', cursive;
+	}
+	.title{
+		font-size: 2.5em;
+		margin-top: 0;
+	}
+	.main-container{
+		min-height: 100vh;
+		/*opacity: 0.9;*/
+	}
+
+	.main-header{
+		background-color: #34495E;
+		padding-left: 12px;
+		padding-right: 12px;
+		padding-top: 5px;
+		padding-bottom: 8px;
+		border-radius: 4px;
+		height: 30px;
+	}
+	.main-nav{
+		font-size: 20px;
+		padding-top: 4px;
+	}
+	.nav-link{
+		color: white;
+		margin-right: -4px;
+		text-decoration: none;
+		width: 33%;
+		display: inline-block;
+	}
+
+	.text-center{
+		text-align: center;
+	}
+	.text-red{
+		color: #E74C4C;
+	}
+	
+	.main-nav{
+
+	}
+	.product{
+
+	}
+	.product img{
+		width: 150px;
+	}
+	.product h3{
+		font-size: 1.7em;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	.productos{
+		text-decoration: none;
+		color: black;
+	}
+	.card{
+		border-radius: 4px;
+		background-color: white;
+		box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+		transition: opacity 1s, box-shadow 1s, transform 1s, background 1s;
+		transform: scale(1,1);
+	}
+
+
+	.threeD{
+		text-shadow: 1px 3px 0px #6b251d, 1px 13px 5px rgb(171, 168, 168);
+	}
+
+	.delay-1{
+		animation-delay: 0.1s;
+		position: relative;
+		z-index: 7;
+	}
+	.delay-2{
+		animation-delay: 0.2s;
+		position: relative;
+		z-index: 6;
+	}
+	.delay-3{
+		animation-delay: 0.3s;
+		position: relative;
+		z-index: 5;
+	}
+	.delay-4{
+		animation-delay: 0.4s;
+		position: relative;
+		z-index: 4;
+	}
+	.delay-5{
+		animation-delay: 0.5s;
+		position: relative;
+		z-index: 3;
+	}
+	.delay-6{
+		animation-delay: 0.6s;
+		position: relative;
+		z-index: 2;
+	}
+	.delay-7{
+		animation-delay: 0.7s;
+		position: relative;
+		z-index: 1;
+	}
+	.delay-9{
+		animation-delay: 0.9s;
+		position: relative;
+		z-index: 1;
+	}
+		.card:hover{
+		opacity: 1;
+		transform: scale(1,1);
+		transform: scale(1.1,1.1);
+		background: rgba(255,255,255,1);
+		box-shadow: 0px 0px 25px black;
+		position: relative;
+		z-index: 100;
+	}
+
+	#presentacion{
+		padding: 0px;
+		margin: 0px; 	
+		text-align: left;
+		width: 100%;
+		height: 0px;
+		background: rgba(0,0,0,0.1);
+		background: url('../img/sushi4.jpg') center center;
+		background-size: 400px 200px;
+		box-shadow: inset 0px 0px 25px rgba(0,0,0,0.2);
+		animation: esconde 15s;
+	}
+	@keyframes esconde{
+		0%{height: 100px;background-size: 400px 200px;}
+		50%{height: 100px;}
+		100%{height: 0px;background-size: 800px 400px;}
+	}
+	#atexto1{
+		position: absolute;
+		font-family: 'Pacifico', cursive;
+		color: rgba(255,255,255,0);
+		text-shadow: 1px 3px 0px rgba(0,0,0,0);
+		font-size: 25px;
+		transform: translate(150px,0px);
+		animation: muevetexto1 5s;
+		padding-left: 8px;
+	}
+	#atexto1 h2{}
+
+	@keyframes muevetexto1{
+		0%{color:rgba(206, 64, 64, 0);transform: translate(-150px,0px);text-shadow: 1px 3px 0px rgba(0, 0, 0, 0);}
+		25%{color:rgba(206, 64, 64, 1);transform: translate(0px,0px);text-shadow: 1px 3px 0px rgba(0, 0, 0, 1);}
+		50%{color:rgba(206, 64, 64, 1);transform: translate(0px,0px);text-shadow: 1px 3px 0px rgba(0, 0, 0, 1);}
+		75%{color:rgba(206, 64, 64, 1);transform: translate(0px,0px);text-shadow: 1px 3px 0px rgba(0, 0, 0, 1);}
+		100%{color:rgba(206, 64, 64, 0);transform: translate(150px,0px);text-shadow: 1px 3px 0px rgba(0, 0, 0, 0);}
+	}
+	#atexto2{
+		 	
+		font-family: 'Pacifico', cursive;
+		color: rgba(255,255,255,0);
+		text-shadow: 1px 3px 0px rgba(0,0,0,0);
+		font-size: 32px;
+		transform: translate(150px,0px);
+		animation: muevetexto2 5s;
+		animation-delay:5s; 
+		padding-left: 8px;
+
+	}
+	@keyframes muevetexto2{
+		0%{color:rgba(206, 64, 64, 0);transform: translate(-150px,-15px);text-shadow: 1px 3px 0px rgba(0, 0, 0, 0);}
+		25%{color:rgba(206, 64, 64, 1);transform: translate(0px,-15px);text-shadow: 1px 3px 0px rgba(0, 0, 0, 1);}
+		50%{color:rgba(206, 64, 64, 1);transform: translate(0px,-15px);text-shadow: 1px 3px 0px rgba(0, 0, 0, 1);}
+		75%{color:rgba(206, 64, 64, 1);transform: translate(0px,-15px);text-shadow: 1px 3px 0px rgba(0, 0, 0, 1);}
+		100%{color:rgba(206, 64, 64, 0);transform: translate(150px,-15px);text-shadow: 1px 3px 0px rgba(0, 0, 0, 0);}
+	}
